@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    background: black;
+}
+
+header nav{
+    line-height: 100%;
+}
+
+header nav a{
+    display: inline-block;
+    color: white;
+    margin-left: 120px;
+    padding: 10px 20px;
+    line-height: normal;
+}
+
+.globo1{
+    margin: 10px 10px 10px 10px;
+    width: 120px;
+    height: 150px;
+    float: left;
+}
+.bloque{
+    width: 780px;
+    position: static;
+    top: 30px;
+    display: inline-block;
+    overflow: auto;
+    text-align: justify;
+}
+.bloque-img{
+    float: right;
+    padding-right: 290px;
+
+}
+.img{
+    width: 100px;
+    height: 120px;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-rows: minmax(100px, 100px);
+}
